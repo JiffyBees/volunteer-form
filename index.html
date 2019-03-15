@@ -12,57 +12,83 @@
 </head>
 <body>
 
+<header>
   <h1>Apply to be a tree planter</h1>
   <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+</header>
 
   <h2>Personal details</h2>
+    <div class="">
+      <label for="name">Full name</label>
+      <input id="name" required>
+    </div>
+  <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
 
-  Full name
-  Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.
+  <div class="">
+    <label for="preferred-name">What should we call you?</label>
+    <input id="preferred-name" required>
+  </div>
+  <p>What all your friends call you, e.g. “Liz”.</p>
 
-  What should we call you?
-  What all your friends call you, e.g. “Liz”.
+  <div class="">
+    <label for="birthday">Date of birth</label>
+    <input id="birthday" required>
+    <option>yyyy-mm-dd</option>
+  </div>
 
-  Date of birth
+  <div class="unit xs-1 s-1 m-1 l-1-2 pad-b space-right">
+    <label for="subject">T-shirt size</label>
+    <select id="subject" name="subject">
+      <option>Select a t-shirt size</option>
+      <option>Fitted: XS</option>
+      <option>Fitted: S</option>
+      <option>Fitted: M</option>
+      <option>Fitted: L</option>
+      <option>Fitted: XL</option>
+      <option>Straight-cut: XS</option>
+      <option>Straight-cut: S</option>
+      <option>Straight-cut: M</option>
+      <option>Straight-cut: L</option>
+      <option>Straight-cut: XL</option>
+    </select>
+  </div>
 
-  T-shirt size
-  - Select a t-shirt size
-  - Fitted: XS
-  - Fitted: S
-  - Fitted: M
-  - Fitted: L
-  - Fitted: XL
-  - Straight-cut: XS
-  - Straight-cut: S
-  - Straight-cut: M
-  - Straight-cut: L
-  - Straight-cut: XL
+  <div class="">
+    <label for="email">Email</label>
+    <input id="email" required>
+  </div>
 
-  Email
-  Phone number (optional)
+  <div class="">
+    <label for="number">Phone number (optional)</label>
+    <input id="number" required>
+  </div>
 
-<h2>Address</h2>
-  Street address
-  City
-  Postal code
+  <h2>Address</h2>
+    Street address
+    City
+    Postal code
 
-  Province
-  - Select a province
-  - Alberta
-  - British Columbia
-  - Manitoba
-  - New Brunswick
-  - Newfoundland & Labrador
-  - Northwest Territories
-  - Nova Scotia
-  - Nunavut
-  - Ontario
-  - Prince Edward Island
-  - Québec
-  - Saskatchewan
-  - Yukon
+  <div class="unit xs-1 s-1 m-1 l-1-2 pad-b space-right">
+    <label for="location">Province</label>
+    <select id="location" name="location">
+      <option>Select a province</option>
+      <option>Alberta</option>
+      <option>British Columbia</option>
+      <option>Manitoba</option>
+      <option>New Brunswick</option>
+      <option>Newfoundland & Labrador</option>
+      <option>Northwest Territories</option>
+      <option>Nova Scotia</option>
+      <option>Nunavut</option>
+      <option>Ontario</option>
+      <option>Prince Edward Island</option>
+      <option>Québec</option>
+      <option>Saskatchewan</option>
+      <option>Yukon</option>
+    </select>
+  </div>
 
-  What activities are you interested in helping with?
+<h2>What activities are you interested in helping with?</h2>
   - Digging holes
   - Getting dirty
   - Lifting heavy objects
@@ -72,7 +98,7 @@
   - Online publishing
   - Managing people
 
-  Do you have any experience with the following?
+<h2>Do you have any experience with the following?</h2>
   - Shovels
   - Hand-held GPS
   - Writing & blogging
@@ -84,22 +110,25 @@
   - Special event planning
   - Speaking to groups
 
-  Do you have a valid driver’s license?
+<h2>Do you have a valid driver’s license?</h2>
+
   - Yes
   - No
 
-  Do you have a pick-up truck you’d be willing to use?
+<h2>Do you have a pick-up truck you’d be willing to use?</h2>
   - Yes
   - No
 
-  Do you have up-to-date first-aid certification?
+<h2>Do you have up-to-date first-aid certification?</h2>
   - Yes
   - No
 
   Please let us know any comments or questions you may have.
 
-  Apply
+  <div class="text-center">
+    <button type="submit">Apply</button>
+  </div>
 
-  © Tree Hugger International Organization
+<footer>© Tree Hugger International Organization</footer>
 </body>
 </html>
