@@ -6,3 +6,28 @@ html {
   background-color: #70ad55;
   color: #fff;
 }
+
+.green1 {
+  color: #70ad55;
+}
+
+.green-lines {
+  border-color: #6e8c62;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .space-left {
+    padding-left: 5em;
+  }
+
+  .space-right {
+    padding-right: 5em;
+  }
+
+}
